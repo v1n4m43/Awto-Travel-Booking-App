@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Awto</string>
+    <string name="link">www.awto.com</string>
+    <string name="desc">Image</string>
+    <string name="welcome"> Welcome! </string>
+    <string name="welcometxt"> Please login or signup to continue using our app.</string>
+    <string name="todo">TODO</string>
+    <string name="btnDriver">  Driver </string>
+    <string name="btnCustomer">  Customer </string>
+    <string name="txtSignIn"> Sign In </string>
+    <string name="txtEmail"> Email Address </string>
+    <string name="time">00:00 am</string>
+    <string name="txtPass">Password</string>
+    <string name="btnSignIn1"> Sign In </string>
+    <string name="dontHaveAcc"> Don\'t have an account?</string>
+    <string name="btnSignUp1">Sign Up</string>
+    <string name="txt">Android Studio</string>
+    <string name="awto">Awto</string>
+    <string name="home">Home</string>
+    <string name="browse">Browse</string>
+    <string name="bookings">Book A Trip</string>
+    <string name="aboutUs">About Us</string>
+    <string name="myAcc">My Account</string>
+    <string name="hello">Hello!</string>
+    <string name="txtHint">Search</string>
+    <string name="txtwc">Yours to Explore</string>
+    <string name="awtoacc">My Awto Account</string>
+    <string name="txtFN">First Name</string>
+    <string name="txtLN">Last Name</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="phone">Phone Number</string>
+    <string name="add">Address</string>
+    <string name="intro">We\'ll help you to have a safe travel</string>
+    <string name="intro2">Easy and safe travel - BOOK NOW!</string>
+    <string name="destination">Destination</string>
+    <string name="drivers">Drivers</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="calaguas">Calaguas Island</string>
+    <string name="tagaytay">Tagaytay City</string>
+    <string name="mayon">Mayon Volcano</string>
+    <string name="batanes">Batanes Island</string>
+    <string name="gallery">Gallery</string>
+    <string name="about">About</string>
+    <string name="startBooking">Start Booking</string>
+    <string name="calaguasDesc">The Calaguas Islands are located in the Municipality of Vinzons, in the Province of Camarines Norte. It is known for its pristine beaches—the most popular among these is the Mahabang Buhangin beach, which is made up of a long stretch of powdery white sand.</string>
+    <string name="mayonDesc">The Mayon Volcano is situated in the southern part of the main island of Luzon, Albay Province. Towering at a height of 8,077 feet above sea level, it is known for its perfectly conical shape whose natural beauty has inspired a number of legends and art.</string>
+    <string name="batanesDesc">Batanes is one of the beautiful provinces found in the Philippines. It is also known as the “Home of the Winds”. Batanes is the northernmost and the smallest province in the country. It encompasses ten chief islands and three of it are occupied.</string>
+    <string name="tagaytayDesc">Tagaytay, which is officially called the City of Tagaytay, is a component city in Cavite province. Tagaytay is one of the most frequented places in the south because of its outstanding scenery. It overlooks Taal Lake and Taal Volcano and cold climate, given its high altitude.</string>
+    <string name="viewDetails">View Details</string>
+    <string name="rate">Rate your experience</string>
+    <string name="cmmnt">Write a comment…</string>
+    <string name="cstmrSay">What our customer say about us</string>
+    <string name="viewProfile">View Profile</string>
+    <string name="justin">Justin Beiber</string>
+    <string name="justinAge">99 years old</string>
+    <string name="justinExperience">34 Years</string>
+    <string name="steve">Steve Jobs</string>
+    <string name="steveAge">101 years old</string>
+    <string name="steveExperience">51 Years</string>
+    <string name="louis">Louis Partridge</string>
+    <string name="louisAge">45 years old</string>
+    <string name="louisExperience">20 Years</string>
+    <string name="lucifer">Lucifer Morningstar</string>
+    <string name="luciferAge">159 years old</string>
+    <string name="luciferExperience">78 Years</string>
+    <string name="bookingIntro">We\'ll help you to have a safe trip and reach your destination.</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="departureDate">Departure Date</string>
+    <string name="departureTime">Departure Time</string>
+    <string name="noOfPass">No. of Passengers</string>
+    <string name="select">- Select -</string>
+    <string name="drvrDetails">Driver\'s Details</string>
+    <string name="photos">Photos</string>
+    <string name="mobile">Mobile Number: </string>
+    <string name="name">Name: </string>
+    <string name="age">Age: </string>
+    <string name="exprnc">Years of Driving Experience: </string>
+    <string name="number">09123456789</string>
+    <string name="steveAbout">Steven Paul Jobs was an American inventor, designer and entrepreneur who was the co-founder, chief executive and chairman of Apple Computer. Apple\'s revolutionary products, which include the iPod, iPhone and iPad, are now seen as dictating the evolution of modern technology.</string>
+    <string name="fdbck">What is your feedback about this driver?</string>
+    <string name="popularDstntn">Popular Destination</string>
+    <string name="transaction">Transaction</string>
+    <string name="rtngsRvws">Ratings and Reviews</string>
+    <string name="drvrAcc">Account</string>
+    <string name="form">Application Form</string>
+    <string name="formName">Name</string>
+    <string name="FN">First Name</string>
+    <string name="LN">Last Name</string>
+    <string name="houseNo">House No.</string>
+    <string name="ct">City</string>
+    <string name="state">State/Province</string>
+    <string name="postal">Postal/Zip Code</string>
+    <string name="PN">Phone Number</string>
+    <string name="DoB">Date of Birth</string>
+    <string name="strt">Street</string>
+    <string name="mmddyy">MM-DD-YY</string>
+    <string name="eligible">Are you ligible to work in Bicol?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="typeVehicle">Type of Vehicle</string>
+    <string name="licenseNo">License Number</string>
+    <string name="insurance">Insurance Provider</string>
+    <string name="insurance2">Insurance Policy Number</string>
+    <string name="drivingxprnc"> Years of Driving Experience</string>
+    <string name="start">When can you start?</string>
+    <string name="apply">Apply</string>
+    <string name="whichCts">In which cities can you work?</string>
+    <string name="drvrIntro">Good Day! Have a safe trip!</string>
+    <string name="tips">Here\'s the 4 tips for safe driving.</string>
+    <string name="read">Please read!</string>
+    <string name="ic1">Avoid Distractions</string>
+    <string name="ic2">Wear your Seatbelt</string>
+    <string name="ic3">Don\'t Speed</string>
+    <string name="ic4">Stay Calm. Be Alert.</string>
+    <string name="ic5">Be Alert.</string>
+    <string name="prcd">Proceed Now</string>
+    <string name="completed">Transaction Completed</string>
+    <string name="pili">Pili - Calaguas Island</string>
+    <string name="van"> VAN | Sana  all Van w/AC</string>
+    <string name="pick">Pick-up Point:</string>
+    <string name="fare">Fare:</string>
+    <string name="fee">Reservation Fee:</string>
+    <string name="drop">Drop Off:</string>
+    <string name="depart">Departure:</string>
+    <string name="passName">Passenger\'s Name:</string>
+    <string name="seatNo">Seat No.:</string>
+    <string name="pl">Pili</string>
+    <string name="date">04–19–2020 6:00 am</string>
+    <string name="date2">06–25–2020 8:00 am</string>
+    <string name="passName1">Jessica Soho</string>
+    <string name="passName2">Jam Magno</string>
+    <string name="seat">5</string>
+    <string name="seat2">4</string>
+    <string name="rsrctn">Reservation Fee: </string>
+    <string name="fare1">PHP 2000.00</string>
+    <string name="fee1">PHP 100.00</string>
+    <string name="fare2">PHP 3500.00</string>
+    <string name="fee2">PHP 100.00</string>
+    <string name="total">Total: </string>
+    <string name="total1">PHP 2100.00</string>
+    <string name="total2">PHP 3600.00</string>
+    <string name="iriga">Iriga City</string>
+    <string name="summary">Booking Summary</string>
+    <string name="fees">Fees</string>
+    <string name="profile">My Profile</string>
+    <string name="dtls">Personal Details</string>
+    <string name="cont">Continue</string>
+    <string name="signUp">Sign Up</string>
+    <string name="hvacc">Already have an account? </string>
+    <string name="searchBookings">Search Bookings</string>
+    <string name="reply">Write a reply...</string>
+    <string name="abtUs">Awto (Auto), Bicol term for vehicle usually known as mode of transportation throughout Bicol area,
+is a travel booking app that will make you want to travel more despite the danger of the pandemic. This
+app aims to secure the passenger both from the virus and the hassles of traveling particularly now that
+traveling, not only costs more, but the requirements to do so has made people more vulnerable to the virus
+because of long queues and crowded places when we are acquiring the required paperwork. </string>
+    <string name="abtUs2">Due to the pandemic that we are facing nowadays, our team started to think what is the best
+things that we need to do in order to avoid engaging in crowded places, especially in stations. Using the
+Awto app, travelers are capable to choose freely what kind of vehicle they want to ride in, aside from that,
+they can also choose a driver whomever they want from the website. From that, we can maintain a safe and
+sound trip of travelers. Awto will do these hassle works for you, to give you a safe and hassle-free trip. </string>
+    <string name="dev">The Project Developers</string>
+
+    <string name="abtUs3">  Awto also aims to provide job opportunities for drivers who are affected and became jobless
+because of the pandemic</string>
+
+    <string name="christian">Christian E. Quelonio</string>
+    <string name="christian2">Project Leader | Web Backend Developer</string>
+    <string name="vina">Vina Mae B. Occiano</string>
+    <string name="vina2">UI Designer | Web Frontend Developer</string>
+    <string name="pat">Patrick Anthony Z. Neo</string>
+    <string name="pat2">UI Designer | QA Tester</string>
+    <string name="ai">Airesz D. Bustamante</string>
+    <string name="ai2">UI Designer | Content Writer/Editor</string>
+    <string name="virna">Virna Buena</string>
+    <string name="virna2">QA Tester | Web Frontend Developer</string>
+    <string name="josh">Joshua B. Obana</string>
+    <string name="josh2">UI Designer | Content Writer/Editor</string>
+    <string name="pena">Arlene R. Pena</string>
+    <string name="pena2">Content Writer/Editor | QA Tester</string>
+    <string name="jeorgie">Jeorgie B. Salcedo</string>
+    <string name="jeorgie2">Content Writer/Editor | QA Tester</string>
+    <string name="jim">Jim Justine Abanes</string>
+    <string name="jim2">Content Writer/Editor | QA Tester</string>
+    <string name="departTxt">Depart</string>
+    <string name="departDate">Departure Date</string>
+    <string name="search">Search</string>
+    <string name="departTime">Departure Time</string>
+    <string name="departureTxt">Departure</string>
+    <string name="arrival">Arrival</string>
+    <string name="time1"> 6 : 00 a.m</string>
+    <string name="time2"> 7 : 30 a.m</string>
+    <string name="time3"> 7 : 00 a.m</string>
+    <string name="time4"> 8 : 30 a.m</string>
+    <string name="bookSeats"> Book Seats</string>
+    <string name="avail">8 seats Available </string>
+
+
+    <string-array name="dstntnFrm">
+        <item>Pili </item>
+        <item>Nabua </item>
+        <item>Bula</item>
+        <item>Iriga City </item>
+
+
+    </string-array>
+
+    <string-array name="dstntnTo">
+        <item>Batanes Island</item>
+        <item>Calaguas Island</item>
+        <item>Legazpi City</item>
+        <item>Tagaytay City </item>
+
+
+    </string-array>
+
+
+    <string name="reviews">Reviews and Comments</string>
+</resources>

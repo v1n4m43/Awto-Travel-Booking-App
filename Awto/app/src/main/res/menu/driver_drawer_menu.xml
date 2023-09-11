@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home_driver"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        >
+    </item>
+
+
+    <item android:id="@+id/nav_transaction"
+        android:icon="@drawable/ic_transaction"
+        android:title="@string/transaction">
+
+
+    </item>
+    <item android:id="@+id/nav_ratingsReviews"
+        android:icon="@drawable/ic_star"
+        android:title="@string/rtngsRvws">
+    </item>
+    <item android:id="@+id/nav_acc_driver"
+        android:icon="@drawable/ic_acc"
+        android:title="@string/drvrAcc">
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    android:fitsSystemWindows="true"
+    android:minWidth="19dp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:background="#F7FFFFFF"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewCount">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F7FFFFFF"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/primary"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp"
+                app:contentInsetStartWithNavigation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:src="@drawable/awtoimg"
+                        android:layout_marginEnd="230dp"
+                        android:layout_marginStart="-40dp"
+                        android:layout_marginRight="230dp"
+                        android:layout_marginLeft="-40dp"
+                        android:contentDescription="@string/desc"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/awtotxt"
+                        android:layout_marginEnd="170dp"
+                        android:layout_marginTop="35dp"
+                        android:contentDescription="@string/desc"
+                        android:layout_marginRight="170dp"
+                        />
+
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/drvrIntro"
+                    android:textSize="25sp"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/secondary"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tips"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/read"
+                    android:textSize="18sp"
+                    android:textColor="@color/primary"
+                    android:textStyle="bold|italic"
+                    android:layout_gravity="center"
+                    />
+
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imgIC1"
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/cp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:contentDescription="@string/desc"/>
+                    <ImageView
+                        android:id="@+id/imgIC2"
+                        android:layout_width="80dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/sb"
+                        android:layout_marginStart="120dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="120dp"
+                        android:contentDescription="@string/desc"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ds"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="200dp"
+                        android:layout_marginLeft="200dp"
+                        android:contentDescription="@string/desc"/>
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/sc"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="280dp"
+                        android:layout_marginLeft="280dp"
+                        android:contentDescription="@string/desc"/>
+
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imgIC1"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="-21dp"
+                        android:gravity="center"
+                        android:text="@string/ic1"
+                        android:textColor="@color/primary"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="32dp" />
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imgIC1"
+                        android:layout_marginStart="110dp"
+                        android:layout_marginTop="-21dp"
+                        android:gravity="center"
+                        android:text="@string/ic2"
+                        android:textColor="@color/primary"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="110dp" />
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imgIC1"
+                        android:layout_marginStart="203dp"
+                        android:layout_marginTop="-21dp"
+                        android:gravity="center"
+                        android:text="@string/ic3"
+                        android:textColor="@color/primary"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="203dp" />
+
+
+                    <TextView
+
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imgIC1"
+                        android:layout_marginStart="280dp"
+                        android:layout_marginTop="-21dp"
+                        android:gravity="center"
+                        android:text="@string/ic4"
+                        android:textColor="@color/primary"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="280dp" />
+
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/van"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:contentDescription="@string/desc"
+                    />
+
+
+                <Button
+                    android:layout_width="130dp"
+                    android:layout_height="30dp"
+                    android:text="@string/prcd"
+                    android:background="@drawable/prcdbtn_outline"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+
+                    />
+                
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/driver_drawer_menu"
+        android:background="@color/primary">
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

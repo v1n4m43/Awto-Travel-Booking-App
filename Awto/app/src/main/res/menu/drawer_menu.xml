@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"
+            >
+        </item>
+
+
+        <item android:id="@+id/nav_browse"
+            android:icon="@drawable/ic_browse"
+            android:title="@string/browse">
+        </item>
+
+        <item android:id="@+id/nav_book"
+            android:icon="@drawable/ic_books"
+            android:title="@string/bookings">
+        </item>
+
+        <item android:id="@+id/nav_searchBookings"
+            android:icon="@drawable/ic_search"
+            android:title="@string/searchBookings"
+            >
+
+        </item>
+
+
+
+
+        <item android:id="@+id/nav_acc"
+            android:icon="@drawable/ic_acc"
+            android:title="@string/myAcc">
+        </item>
+
+
+
+        <item android:id="@+id/nav_info"
+            android:icon="@drawable/ic_about"
+            android:title="@string/aboutUs">
+        </item>
+
+</menu>
